@@ -21,5 +21,5 @@ def is_palindrome(phrase):
         >>> is_palindrome('Noon')
         True
     """
-    phrase = phrase.lower().replace(' ','')
+    phrase = phrase.lower().replace(' ','') #give new variable name
     return phrase == phrase[::-1]
