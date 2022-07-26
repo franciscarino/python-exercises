@@ -46,6 +46,7 @@ def list_manipulation(lst, command, location, value=None):
             return lst.pop()
         if location == 'beginning':
             return lst.pop(0)
+
     elif command == 'add':
         if location == 'end':
             lst.append(value)
@@ -53,5 +54,3 @@ def list_manipulation(lst, command, location, value=None):
         if location == 'beginning':
             lst.insert(0,value)
             return lst
-    else:
-        return None

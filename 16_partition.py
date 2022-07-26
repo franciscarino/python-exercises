@@ -24,3 +24,5 @@ def partition(lst, fn):
     false_list = [item for item in lst if not fn(item)]
 
     return [true_list, false_list]
+
+    
