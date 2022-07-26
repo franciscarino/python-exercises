@@ -15,7 +15,7 @@ def flip_case(phrase, to_swap):
     #swap those cases
 
     swap_phrase = list(phrase)
-    swap_list = []
+    swap_list = []   #create empty string instead then concat with +=
 
     for letter in swap_phrase:
         if letter == to_swap or letter == to_swap.swapcase():

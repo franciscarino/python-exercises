@@ -9,4 +9,4 @@ def capitalize(phrase):
     """
 
     capPhrase = phrase.capitalize()
-    return capPhrase;
+    return capPhrase
