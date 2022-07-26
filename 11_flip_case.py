@@ -11,3 +11,16 @@ def flip_case(phrase, to_swap):
         'AaaaHHH'
 
     """
+    #take a string find the values that match to swap
+    #swap those cases
+
+    swap_phrase = list(phrase)
+    swap_list = []
+
+    for letter in swap_phrase:
+        if letter == to_swap or letter == to_swap.swapcase():
+            swap_list.append(letter.swapcase())
+        else:
+            swap_list.append(letter)
+
+    return "".join(swap_list)
